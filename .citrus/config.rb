@@ -1,3 +1,3 @@
 Citrus::Configuration.describe do |c|
-  c.build_script = "ps axf"
+  c.build_script = "rspec"
 end
