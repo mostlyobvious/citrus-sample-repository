@@ -5,7 +5,7 @@ Citrus::Configuration.describe do |c|
   set -e
   set -x
   env
-  bundle install --color
+  bundle install
   bundle exec rspec --color
   SCRIPT
 end
