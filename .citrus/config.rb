@@ -3,7 +3,6 @@ Citrus::Configuration.describe do |c|
   #!/bin/bash
   ps -p $$ | tail -1 | awk '{print $NF}'
   env
-  gem install bundler
   bundle install
   bundle exec rspec
   SCRIPT
