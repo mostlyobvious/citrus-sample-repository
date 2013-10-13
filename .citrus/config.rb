@@ -3,6 +3,7 @@ Citrus::Configuration.describe do |c|
   #!/bin/bash
   ps -p $$ | tail -1 | awk '{print $NF}'
   set -e
+  set -x
   env
   bundle install
   bundle exec rspec
